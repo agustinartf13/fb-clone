@@ -2,7 +2,7 @@ import Image from "next/image";
 
 function AvatarImg({ src, Icon }) {
   return (
-    <div>
+    <div className="cursor-pointer">
       {src && (
         <Image
           className="rounded-full"
